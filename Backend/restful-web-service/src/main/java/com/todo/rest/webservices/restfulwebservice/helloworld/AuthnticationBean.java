@@ -1,10 +1,10 @@
 package com.todo.rest.webservices.restfulwebservice.helloworld;
 
-public class HelloWorldBean {
+public class AuthnticationBean {
 	
 	private String message; 
 	
-	public HelloWorldBean(String message) {
+	public AuthnticationBean(String message) {
 		this.message = message; 
 	}
 	
