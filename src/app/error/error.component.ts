@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ErrorComponent implements OnInit {
 
-  errorMessgae = 'Oops something went wrong, page cannot be found'
+  errorMessage = 'An Error Occured! Contact Support at *** - ***'
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
